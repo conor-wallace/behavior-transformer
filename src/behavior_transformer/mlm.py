@@ -1,6 +1,5 @@
 from typing import List, Optional
 
-import einops
 import torch
 import torch.nn as nn
 
@@ -60,7 +59,4 @@ if __name__ == "__main__":
     )
 
     x = torch.randint(low=1, high=n_actions + 1, size=(25, 1))
-    print(x)
     x, y = mbm(x)
-    print(x)
-    print(y)
