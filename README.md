@@ -15,4 +15,4 @@ If you want to see metric logging, login to your weights & biases account using 
 
 You can then launch a logged training job by running:
 
-```python train_offline.py --log```
+```python train_offline.py --log wandb```
